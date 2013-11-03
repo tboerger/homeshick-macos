@@ -1,11 +1,13 @@
 function clearsd() {
-  if [ $# -ne 1 ]; then
+  if [ $# -ne 1 ]
+  then
     echo "Usage: clearsd <volume>"
     return 1
   fi
 
   VOL=/Volumes/$(echo $1 | tr '[:lower:]' '[:upper:]')
-  if [ -d $VOL ]; then
+  if [ -d $VOL ]
+  then
     echo "Cleaning ${VOL}"
 
     pushd $VOL > /dev/null
