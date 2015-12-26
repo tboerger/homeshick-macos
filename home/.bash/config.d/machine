@@ -1,4 +1,4 @@
-if docker-machine active 2> /dev/null | grep -q development
+if docker-machine status development 2> /dev/null | grep -q Running
 then
   eval "$(docker-machine env development)"
 fi
