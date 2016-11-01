@@ -1,5 +1,5 @@
 unset GOBIN
 unset GOROOT
 
-export GOPATH=${HOME}/Developer/golang
+export GOPATH=${HOME}/.golang
 export PATH=${GOPATH}/bin:${PATH}
