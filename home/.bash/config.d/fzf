@@ -6,4 +6,6 @@ if [[ $- == *i* ]]; then
   source "/usr/local/opt/fzf/shell/completion.bash" 2>/dev/null
 fi
 
-source "/usr/local/opt/fzf/shell/key-bindings.bash"
+if [[ -f "/usr/local/opt/fzf/shell/key-bindings.bash" ]]; then
+  source "/usr/local/opt/fzf/shell/key-bindings.bash"
+fi
