@@ -1,1 +1,4 @@
-source <(gopass completion bash)
+if hash gopass 2> /dev/null
+then
+  source <(gopass completion bash)
+fi

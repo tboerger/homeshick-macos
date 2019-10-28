@@ -5,6 +5,7 @@ function clearsd() {
   fi
 
   VOL=/Volumes/$(echo $1 | tr '[:lower:]' '[:upper:]')
+
   if [ -d $VOL ]; then
     echo "Cleaning ${VOL}"
 

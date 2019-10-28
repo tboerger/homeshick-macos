@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Ansible",
+		"AsciiDoc",
+		"Caddyfile Syntax",
+		"CSSLint",
+		"Dockerfile Syntax Highlighting",
+		"EditorConfig",
+		"GitHub Flavored Markdown Preview",
+		"Gofmt",
+		"Gomod",
+		"Jinja2",
+		"jsonnet syntax",
+		"LESS",
+		"nginx",
+		"Package Control",
+		"plist",
+		"PowerShell",
+		"Pretty JSON",
+		"Pretty YAML",
+		"Sass",
+		"Terraform",
+		"Vue Syntax Highlight"
+	]
+}

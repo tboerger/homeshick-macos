@@ -1,0 +1,4 @@
+if hash tfschema 2> /dev/null
+then
+  complete -C $(which tfschema) tfschema
+fi
