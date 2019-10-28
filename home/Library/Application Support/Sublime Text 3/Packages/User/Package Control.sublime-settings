@@ -6,7 +6,7 @@
 	"installed_packages":
 	[
 		"Ansible",
-		"AsciiDoc",
+		"Asciidoctor",
 		"Caddyfile Syntax",
 		"CSSLint",
 		"Dockerfile Syntax Highlighting",
@@ -19,7 +19,7 @@
 		"LESS",
 		"nginx",
 		"Package Control",
-		"plist",
+		"Plist Binary",
 		"PowerShell",
 		"Pretty JSON",
 		"Pretty YAML",
