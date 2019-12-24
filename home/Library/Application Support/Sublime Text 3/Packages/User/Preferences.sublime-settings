@@ -10,6 +10,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"AsciiDoc",
+		"BlameHighlighter",
+		"Crontab",
+		"plist",
 		"Vintage"
 	],
 	"rulers":
