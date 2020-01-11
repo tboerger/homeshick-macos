@@ -1,3 +1,2 @@
 alias netstat="sudo lsof -i -P"
 alias ls="ls -G"
-alias ping="prettyping --nolegend"

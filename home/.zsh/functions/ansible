@@ -1,0 +1,13 @@
+secrets-encrypt() {
+	for FILE in $(find ansible/secrets -type f -iname \*.txt); do
+		echo "-> encrypting ${FILE}"
+		bin/vault encrypt ${FILE}
+	done
+}
+
+secrets-decrypt() {
+	for FILE in $(find ansible/secrets -type f -iname \*.txt); do
+		echo "-> decrypting ${FILE}"
+		bin/vault decrypt ${FILE}
+	done
+}
