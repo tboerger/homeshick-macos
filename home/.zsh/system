@@ -7,3 +7,23 @@ fi
 if [ -d ${HOME}/bin ]; then
 	export PATH="${HOME}/bin:${PATH}"
 fi
+
+plugins+=(
+	direnv
+	gpg-agent
+	gopass
+	autojump
+	cloudapp
+	colorize
+	copydir
+	copyfile
+	fzf
+	httpie
+	iterm2
+	osx
+	ripgrep
+	scw
+	ssh-agent
+	vscode
+	thefuck
+)
