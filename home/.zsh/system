@@ -26,4 +26,5 @@ plugins+=(
 	ssh-agent
 	vscode
 	thefuck
+	asdf
 )
