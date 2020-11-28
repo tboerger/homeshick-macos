@@ -10,21 +10,12 @@ fi
 
 plugins+=(
 	direnv
-	gpg-agent
-	gopass
-	autojump
 	cloudapp
-	colorize
 	copydir
 	copyfile
-	fzf
+	gopass
 	httpie
 	iterm2
 	osx
-	ripgrep
-	scw
-	ssh-agent
 	vscode
-	thefuck
-	asdf
 )
