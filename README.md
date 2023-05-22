@@ -1,4 +1,4 @@
-# Homeshick: MacOS
+# Homeshick: macOS
 
 This package contains a set of configuration files to setup a system the
 way I like it on macOS and Linux with the support of homeshick. There are
