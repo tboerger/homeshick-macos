@@ -1,7 +1,7 @@
 ---
 repository:
   name: homeshick-macos
-  description: Dotfile management for macOS
+  description: "Dotfiles: macOS"
   topics: dotfiles, homeshick
 
   private: false
